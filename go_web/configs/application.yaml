@@ -1,0 +1,9 @@
+server:
+  port: 8088
+
+mysql:
+  url: 127.0.0.1:3306
+  db: test
+  username: root
+  password: tiger123
+  maxActive: 5

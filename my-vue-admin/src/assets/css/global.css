@@ -1,0 +1,25 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.el-breadcrumb {
+  /* 设置下拉距 */
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.el-card {
+  /* 设置卡片阴影，由于默认卡片阴影样式权重比较高，所以添加 !important 覆盖掉原来的样式*/
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+.el-table {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.el-pagination {
+  margin-top: 15px;
+}

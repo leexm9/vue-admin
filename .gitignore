@@ -1,0 +1,26 @@
+
+
+# vue项目部分
+.DS_Store
+my-vue-admin/node_modules
+my-vue-admin/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+my-vue-admin/npm-debug.log*
+my-vue-admin/yarn-debug.log*
+my-vue-admin/yarn-error.log*
+my-vue-admin/pnpm-debug.log*
+
+# Editor directories and files
+my-vue-admin/.idea
+my-vue-admin/.vscode
+my-vue-admin/*.suo
+my-vue-admin/*.ntvs*
+my-vue-admin/*.njsproj
+my-vue-admin/*.sln
+my-vue-admin/*.sw?
